@@ -1,0 +1,50 @@
+h1 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+  text-align: justify;
+}
+label {
+  color: #fff;
+  font-weight: 400;
+  text-align: start;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  border-bottom: 1px solid #fff;
+}
+
+.custom-input {
+  background-color: transparent;
+  padding: 5px;
+  border: 0px;
+  border-radius: 0px;
+  color: #fff;
+  width: 90%;
+}
+i {
+  color: #fff;
+}
+
+.nav-signupbutton {
+  padding: 5px 15px;
+  border: 1px solid #ffee07;
+  border-radius: 30px;
+  color: #ffffffac;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.alignend{
+    justify-content: end;
+    padding-right: 20px;
+}
+.input-field{
+  text-align: start;
+}

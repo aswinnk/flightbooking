@@ -1,0 +1,50 @@
+.heading-destination {
+  color: rgba(20, 30, 56, 1);
+  text-align: justify;
+}
+.desintation-description {
+  color: rgba(20, 30, 56, 1);
+  text-align: justify;
+}
+.destination {
+  padding: 8px 4rem;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content:space-between
+}
+.destination-image-container:hover {
+  padding: 5px 5px;
+  transition: 100ms ease-out;
+  cursor: pointer;
+}
+
+.destination-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.destinationimage {
+  width: 100%;
+}
+
+.country {
+  font-size: 20px;
+  color: rgba(224, 177, 0, 1);
+  font-weight: 500;
+}
+.destination-name {
+  text-align: start;
+}
+.flight {
+  height: 40px;
+}
+
+.discover-more-button {
+  background-color: rgba(224, 177, 0, 1);
+  border-radius: 24px;
+  border: 0px;
+  color: #fff;
+  padding: 8px 15px;
+}

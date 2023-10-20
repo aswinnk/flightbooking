@@ -1,0 +1,51 @@
+.dropdown-nav {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: -20px;
+  display: none;
+  width: -moz-fit-content;
+  min-width: fit-content;
+  padding: 10px;
+  background-color: rgb(81, 81, 134);
+}
+.dropdown-nav:hover .dropdown-menu {
+  display: block;
+}
+.navbar {
+  z-index: 1;
+  color: #fff;
+  position: sticky;
+  padding: 8px 4rem;
+}
+.border-right-1px {
+  border-right: 1px solid #fff6;
+}
+.nav-second-item-collection {
+  display: flex;
+  gap: 2rem;
+  justify-content: end;
+}
+.nav-signupbutton {
+  padding: 5px 15px;
+  border: 1px solid #ffee07;
+  border-radius: 30px;
+  color: #ffffffac;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-loginbutton {
+  color: #ffffffac;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav-loginbutton .nav-signupbutton :hover {
+  text-decoration: none;
+}
+.pointer {
+  cursor: pointer;
+}
