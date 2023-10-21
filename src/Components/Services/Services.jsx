@@ -47,7 +47,7 @@ const Services = () => {
           <button className="discover-more-button">Learn More</button>
         </div>
         <div className="row">
-          <img src="../assets/imgs/luggage.png" alt="luggage" />
+          <img src="../assets/imgs/luggage.png" alt="luggage" className="service-img" />
         </div>
       </div>
     </div>

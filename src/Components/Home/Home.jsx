@@ -1,12 +1,10 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
 import "./home.css";
 import Search from "../Search/Search";
 
 const Home = () => {
   return (
-    <div>
-      <Navbar />
+    <div className="vh100">
       <img
         src="../assets/imgs/HeroImage.png"
         alt="homeimage"
